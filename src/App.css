@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #A0D9D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.fa-earth-europe {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.nav--text {
+  font-size: 20px;
+}
+
+.card {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.card--location {
+  color: #2B283A;
+}
+
+.card--link {
+  color: #918E9B;
+  font-size: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #918E9B;
+}
+
+.card--date {
+  margin-bottom: 0;
+}
+
+.card--photo {
+  height: 100%;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card--details {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  height: 100px;
+  padding: 15px;
+}
+
+.card--details--head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+
+.card--details--head > * {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.card--details--head > i {
+  margin-right: 5px;
+  color: red;
+}
+
+.card--heading {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #45858C;
+}
+
+.card--text {
+  color: #2B283A;
+}
